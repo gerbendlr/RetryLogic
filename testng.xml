@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FReeCRM">
+
+<listeners>
+<listener class-name="RetryLogic.Transformer"/>
+
+</listeners>
+
+  <test verbose="2" name="FreeCRM TestRun">
+    <classes>
+        <class name="RetryLogicTest.RetryTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite --> 

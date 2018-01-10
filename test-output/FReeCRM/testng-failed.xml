@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [FReeCRM]">
+  <listeners>
+    <listener class-name="RetryLogic.Transformer"/>
+  </listeners>
+  <test name="FreeCRM TestRun(failed)">
+    <classes>
+      <class name="RetryLogicTest.RetryTest">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- RetryLogicTest.RetryTest -->
+    </classes>
+  </test> <!-- FreeCRM TestRun(failed) -->
+</suite> <!-- Failed suite [FReeCRM] -->
